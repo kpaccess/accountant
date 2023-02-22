@@ -10,9 +10,13 @@ const Hero = () => {
       />
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[30%] md:-[50%] max-w-[600px]h-full flex flex-col text-white p-4">
-          <h1 className="font-bold text-4xl text-rose-800">
+          <h1 className="font-bold text-4xl text-white">
             GURANTEED MAXIMUM TAX REFUND!!!
           </h1>
+          <p>
+            File with Our Tax Experts and Get Your
+            Refund Instantly
+          </p>
         </div>
       </div>
     </div>

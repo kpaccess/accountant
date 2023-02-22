@@ -14,7 +14,7 @@ const ContactUs = () => {
       id="contact"
       className="max-w-[1140px] m-auto w-full p-4 py-16"
     >
-      <div className="absolute top-[80%] md:-[50%] max-w-[600px]h-full flex flex-col text-white p-4 bg-gray-800 md:left-[15%]">
+      <div className="">
         <h1 className="text-4xl text-red-500">
           Contact Us
         </h1>
