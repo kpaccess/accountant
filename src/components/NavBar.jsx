@@ -5,9 +5,6 @@ import React, {
 import {
   FaBars,
   FaFacebookF,
-  FaTwitter,
-  FaGooglePlusG,
-  FaInstagram,
 } from 'react-icons/fa';
 import { BsChatSquareDots } from 'react-icons/bs';
 
@@ -23,20 +20,23 @@ const NavBar = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="#gallery">Gallery</a>
-        </li>
-        <li>
-          <a href="#deals">Deals</a>
+          <a href="#ourservices">Our Services</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="flex justify-between">
-        <FaFacebookF className="mx-4" />
-        <FaTwitter className="mx-4" />
-        <FaGooglePlusG className="mx-4" />
-        <FaInstagram className="mx-4" />
+        <a
+          rel="noreferrer"
+          href="https://www.facebook.com/tejendra.khatiwada.5"
+          target="_blank"
+        >
+          <FaFacebookF
+            size={30}
+            className="mx-4"
+          />
+        </a>
       </div>
       {/* { Hamburger Icon} */}
       <div
@@ -60,13 +60,12 @@ const NavBar = () => {
           <li className="text-2xl py-8">
             <a href="/">Home</a>
           </li>
-          <li className="text-2xl py-8">
-            <a href="#gallery">Gallery</a>
+          <li>
+            <a href="#ourservices">
+              Our Services
+            </a>
           </li>
-          <li className="text-2xl py-8">
-            <a href="#deals">Deals</a>
-          </li>
-          <li className="text-2xl py-8">
+          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>

@@ -10,7 +10,6 @@ function App() {
       <TopBar />
       <NavBar />
       <Hero />
-      <Activites />
     </div>
   );
 }
