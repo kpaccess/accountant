@@ -48,8 +48,8 @@ const NavBar = () => {
       <div
         className={
           nav
-            ? 'overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 h-screen bg-black/90 px-4 py-7 flex flex-col w-full'
-            : 'absolute top-0 h-screen left-[-100%] ease-in duration-500'
+            ? 'overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 h-[25rem] bg-black/90 px-4 py-7 flex flex-col w-full'
+            : 'absolute top-0 h-[25rem] left-[-100%] ease-in duration-500'
         }
       >
         <ul className="h-100 w-full text-center pt-12">
