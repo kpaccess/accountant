@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  AiFillPhone,
-  AiOutlineClockCircle,
-} from 'react-icons/ai';
-import { BsChatSquareDots } from 'react-icons/bs';
+import { AiFillPhone } from 'react-icons/ai';
 import { MdAccountBalance } from 'react-icons/md';
 
 const TopBar = () => {
