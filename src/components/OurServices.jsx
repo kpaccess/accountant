@@ -1,13 +1,13 @@
 import React, {
   useEffect,
   useState,
-  useRef,
+  // useRef,
 } from 'react';
 
 const OurServices = () => {
   const [data, setData] = useState([]);
 
-  const elRef = useRef();
+  // const elRef = useRef();
 
   useEffect(() => {
     const getWpData = async () => {
