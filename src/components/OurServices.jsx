@@ -36,10 +36,31 @@ const OurServices = () => {
           Our Services
         </h1>
 
-        <div
+        {/* <div
           ref={elRef}
           dangerouslySetInnerHTML={createMarkup()}
-        />
+        /> */}
+
+        <ul>
+          <li className="text-3xl">
+            Tax Returns Preperation: T1, T2, T3
+          </li>
+          <li className="text-3xl">
+            Tax Advice and Planning by Chartered
+            Professional Accountants
+          </li>
+          <li className="text-3xl">
+            Accounting and Bookkeeping for
+            Business
+          </li>
+          <li className="text-3xl">
+            Business Registration, Set up and
+            Advisory
+          </li>
+          <li className="text-3xl">
+            Payroll, HST, WSIB, EHT Services
+          </li>
+        </ul>
       </div>
     </div>
   );
