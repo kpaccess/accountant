@@ -1,30 +1,28 @@
-import React, {
-  useEffect,
-  useState,
-  // useRef,
-} from 'react';
+import React from // useState, // useEffect,
+// useRef,
+'react';
 
 const OurServices = () => {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   // const elRef = useRef();
 
-  useEffect(() => {
-    const getWpData = async () => {
-      const data = await fetch(
-        'http://tej-cpa-accounting.local/wp-json/wp/v2/posts'
-      );
-      const res = await data.json();
-      console.log(res[0].content);
-      setData(res[0].content.rendered);
-    };
+  // useEffect(() => {
+  //   const getWpData = async () => {
+  //     const data = await fetch(
+  //       'http://tej-cpa-accounting.local/wp-json/wp/v2/posts'
+  //     );
+  //     const res = await data.json();
+  //     console.log(res[0].content);
+  //     setData(res[0].content.rendered);
+  //   };
 
-    getWpData();
-  }, []);
+  //   getWpData();
+  // }, []);
 
-  function createMarkup() {
-    return { __html: data };
-  }
+  // function createMarkup() {
+  //   return { __html: data };
+  // }
 
   return (
     <div
